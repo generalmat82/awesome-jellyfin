@@ -939,13 +939,13 @@ clients:
         owner: sureshfizzy
         repo: JellyCine
 
-  - name: Playtorrio
+  - name: PlayTorrioV2
     targets: [Windows, macOS, Linux, Android]
-    oss: https://github.com/ayman708-UX/PlayTorrio
+    oss: https://github.com/ayman708-UX/PlayTorrioV2
     downloads:
       - type: github
         owner: ayman708-UX
-        repo: PlayTorrio
+        repo: PlayTorrioV2
 
   - name: JellyTV
     targets: [iOS]
