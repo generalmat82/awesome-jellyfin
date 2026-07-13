@@ -1,15 +1,4 @@
 clients:
-  - name: "Jellyfin Media Player"
-    targets: [Windows, Linux, macOS]
-    oss: https://github.com/jellyfin/jellyfin-media-player
-    official: true
-    downloads:
-      - type: github
-        owner: jellyfin
-        repo: jellyfin-media-player
-      - type: flathub
-        package: com.github.iwalton3.jellyfin-media-player
-
   - name: Coppelia
     targets: [iOS, Android, Linux, macOS]
     types: [Music]
@@ -32,15 +21,6 @@ clients:
     downloads:
       - type: app-store
         id: "1604098728"
-
-  - name: "Sunkfin"
-    targets: [iOS]
-    oss: https://github.com/jackcrane/sunkfin
-    official: false
-    beta: false
-    downloads:
-      - type: app-store
-        id: "6743207349"
 
   - name: "Jellyfin Vue"
     targets: [Browser]
@@ -181,16 +161,16 @@ clients:
       - type: app-store
         id: "1659622164"
 
-  - name: "sonixd"
+  - name: "feishin"
     targets: [Browser]
     types: [Music]
-    oss: https://github.com/jeffvli/sonixd
+    oss: https://github.com/jeffvli/feishin
     official: false
     beta: true
     downloads:
       - type: github
         owner: jeffvli
-        repo: sonixd
+        repo: feishin
 
   - name: "Finamp"
     targets: [Android, iOS]
@@ -203,40 +183,6 @@ clients:
         id: com.unicornsonlsd.finamp
       - type: app-store
         id: "1574922594"
-
-  - name: "Plappa"
-    targets: [iOS]
-    types: [Music]
-    oss: https://github.com/LeoKlaus/plappa
-    official: false
-    beta: false
-    downloads:
-      - type: app-store
-        id: "6475201956"
-
-  - name: "MrMC"
-    targets: [AppleTV]
-    oss: https://github.com/MrMC/mrmc
-    price:
-      free: true
-      paid: true
-    downloads:
-      - type: shield
-        icon: Amazon
-        url: https://www.amazon.com/gp/product/B01ENT3I1Q/ref=mas_pm_mrmc
-      - type: app-store
-        id: "1059536415"
-      - type: google-play
-        id: tv.mrmc.mrmc
-
-  - name: "Delfin"
-    targets: [Linux]
-    oss: https://codeberg.org/avery42/delfin
-    official: false
-    beta: true
-    downloads:
-      - type: flathub
-        package: cafe.avery.Delfin
 
   - name: "Supersonic"
     targets: [Windows, Linux, macOS]
@@ -277,36 +223,23 @@ clients:
   - name: "Jellyamp"
     targets: [Windows, Linux]
     types: [Music]
-    oss: https://github.com/m0ngr31/jellyamp
+    oss: https://github.com/jellyfin-labs/jellyamp
     official: false
     downloads:
       - type: github
-        owner: m0ngr31
+        owner: jellyfin-labs
         repo: jellyamp
 
-  - name: "Preserve"
-    targets: [Browser, Windows, Linux]
-    types: [Music]
-    oss: https://gitlab.com/preserve/preserve
-    official: false
-    beta: true
-    downloads:
-      - type: gitlab
-        owner: preserve
-        repo: preserve
-      - type: demo
-        url: https://preserveplayer.com/
-
-  - name: "Sonixd"
+  - name: "feishin"
     targets: [Windows, Linux, macOS]
     types: [Music]
-    oss: https://github.com/jeffvli/sonixd
+    oss: https://github.com/jeffvli/feishin
     official: false
     beta: true
     downloads:
       - type: github
         owner: jeffvli
-        repo: sonixd
+        repo: feishin
 
   - name: "Feishin"
     targets: [Browser, Windows, Linux, macOS]
@@ -329,24 +262,6 @@ clients:
       - type: app-store
         id: "6470928235"
 
-  - name: "Fintunes"
-    targets: [Android, iOS]
-    types: [Music]
-    oss: https://github.com/leinelissen/jellyfin-audio-player
-    official: false
-    beta: false
-    downloads:
-      - type: github
-        owner: leinelissen
-        repo: jellyfin-audio-player
-      - type: shield
-        icon: F-Droid
-        url: https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer
-      - type: google-play
-        id: nl.moeilijkedingen.jellyfinaudioplayer
-      - type: app-store
-        id: "1527732194"
-
   - name: "Blink"
     targets: [Windows, Linux, macOS]
     oss: https://github.com/prayag17/Blink
@@ -368,19 +283,14 @@ clients:
         owner: MakD
         repo: AFinity
 
-  - name: "Gelli"
-    targets: [Android]
-    types: [Music]
-    oss: https://github.com/dkanada/gelli
-    official: false
-    beta: false
-    downloads:
-      - type: github
-        owner: dkanada
-        repo: gelli
-      - type: shield
-        icon: F-Droid
-        url: https://f-droid.org/packages/com.dkanada.gramophone
+
+# ---------------------------------------------------
+# ---------------------------------------------------
+# ---------------------------------------------------
+# ---------------------------------------------------
+# ---------------------------------------------------
+# ---------------------------------------------------
+
 
   - name: "JellyBook"
     targets: [Android, iOS]
@@ -399,18 +309,6 @@ clients:
         icon: App Store
         label: TestFlight
         url: "https://testflight.apple.com/join/lEXKY4Dl"
-
-  - name: "Shadfin"
-    targets: [Browser]
-    oss: https://github.com/Shadfin/app
-    official: false
-    beta: true
-    downloads:
-      - type: github
-        owner: Shadfin
-        repo: app
-      - type: demo
-        url: https://main.shadfin-standalone.pages.dev
 
   - name: "Symfonium"
     targets: [Android]
@@ -709,18 +607,6 @@ clients:
         id: com.appsynergyts.phyn
       - type: app-store
         id: "6457674815"
-
-  - name: "Finetic"
-    targets: [Browser]
-    oss: https://github.com/AyaanZaveri/finetic
-    official: false
-    beta: false
-    price:
-      free: true
-    downloads:
-      - type: github
-        owner: AyaanZaveri
-        repo: finetic
 
   - name: "Reefin"
     targets: [Android, AndroidTV]
