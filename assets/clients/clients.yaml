@@ -1,4 +1,15 @@
 clients:
+  - name: "Jellyfin Media Player"
+    targets: [Windows, Linux, macOS]
+    oss: https://github.com/jellyfin/jellyfin-media-player
+    official: true
+    downloads:
+      - type: github
+        owner: jellyfin
+        repo: jellyfin-media-player
+      - type: flathub
+        package: com.github.iwalton3.jellyfin-media-player
+
   - name: Coppelia
     targets: [iOS, Android, Linux, macOS]
     types: [Music]
@@ -184,6 +195,37 @@ clients:
       - type: app-store
         id: "1574922594"
 
+  - name: "Plappa"
+    targets: [iOS]
+    types: [Music]
+    oss: https://github.com/LeoKlaus/plappa
+    official: false
+    beta: false
+    downloads:
+      - type: app-store
+        id: "6475201956"
+
+  - name: "MrMC"
+    targets: [AppleTV]
+    oss: https://github.com/MrMC/mrmc
+    price:
+      free: true
+      paid: true
+    downloads:
+      - type: app-store
+        id: "1059536415"
+      - type: google-play
+        id: tv.mrmc.mrmc
+
+  - name: "Delfin"
+    targets: [Linux]
+    oss: https://codeberg.org/avery42/delfin
+    official: false
+    beta: true
+    downloads:
+      - type: flathub
+        package: cafe.avery.Delfin
+
   - name: "Supersonic"
     targets: [Windows, Linux, macOS]
     types: [Music]
@@ -261,6 +303,24 @@ clients:
     downloads:
       - type: app-store
         id: "6470928235"
+
+  - name: "Fintunes"
+    targets: [Android, iOS]
+    types: [Music]
+    oss: https://github.com/leinelissen/jellyfin-audio-player
+    official: false
+    beta: false
+    downloads:
+      - type: github
+        owner: leinelissen
+        repo: jellyfin-audio-player
+      - type: shield
+        icon: F-Droid
+        url: https://f-droid.org/en/packages/nl.moeilijkedingen.jellyfinaudioplayer
+      - type: google-play
+        id: nl.moeilijkedingen.jellyfinaudioplayer
+      - type: app-store
+        id: "1527732194"
 
   - name: "Blink"
     targets: [Windows, Linux, macOS]
@@ -447,6 +507,21 @@ clients:
         icon: AppGallery
         url: https://appgallery.huawei.com/app/detail?id=org.ohpg.fin.video
 
+  - name: Bloodin
+    targets: [Windows, Linux, macOS]
+    oss: https://github.com/pathetic/bloodin
+    beta: true
+
+  - name: DUNE
+    targets: [AndroidTV]
+    oss: https://github.com/Sam42a/DUNE
+    official: false
+    beta: true
+    downloads:
+      - type: github
+        owner: Sam42a
+        repo: DUNE
+
   - name: "HamHub"
     targets: [iOS, AppleTV, macOS]
     website: https://www.hamhub.app/
@@ -536,6 +611,17 @@ clients:
       - type: app-store
         id: "6746067740"
 
+  - name: "Foxy"
+    targets: [Windows, Linux, macOS]
+    types: [Music]
+    oss: https://github.com/Devioxic/Foxy-Desktop
+    official: false
+    beta: false
+    downloads:
+      - type: github
+        owner: Devioxic
+        repo: Foxy-Desktop
+
   - name: "Jelly Music App"
     targets: [Browser, Windows, macOS, Linux]
     types: [Music]
@@ -562,6 +648,18 @@ clients:
         id: com.appsynergyts.phyn
       - type: app-store
         id: "6457674815"
+
+   - name: "Finetic"
+    targets: [Browser]
+    oss: https://github.com/AyaanZaveri/finetic
+    official: false
+    beta: false
+    price:
+      free: true
+    downloads:
+      - type: github
+        owner: AyaanZaveri
+        repo: finetic
 
   - name: "Reefin"
     targets: [Android, AndroidTV]
@@ -715,9 +813,19 @@ clients:
         owner: akhilmulpurii
         repo: aperture
 
+  - name: "Mediora"
+    targets: [AppleTV]
+    website: https://github.com/ghobs91/mediora
+    oss: https://github.com/ghobs91/mediora
+    price:
+      free: true
+      paid: false
+    downloads:
+      - type: app-store
+        id: "6757345487"
+
   - name: Yamby
     targets: [Android, AndroidTV]
-    website: https://play.google.com/store/apps/details?id=com.hush.yamby
     price:
       free: true
       paid: true
@@ -727,7 +835,6 @@ clients:
   
   - name: JellySee
     targets: [AppleTV]
-    website: https://apps.apple.com/ca/app/jellysee/id6748783768
     official: false
     beta: false
     price:
