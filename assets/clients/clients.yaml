@@ -649,7 +649,7 @@ clients:
       - type: app-store
         id: "6457674815"
 
-   - name: "Finetic"
+  - name: "Finetic"
     targets: [Browser]
     oss: https://github.com/AyaanZaveri/finetic
     official: false
